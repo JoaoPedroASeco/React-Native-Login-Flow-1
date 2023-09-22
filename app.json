@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "lgin-flow-1",
-    "slug": "lgin-flow-1",
+    "name": "login-flow",
+    "slug": "login-flow",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
@@ -15,16 +15,23 @@
       "**/*"
     ],
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "com.devjpedro.loginflow"
     },
     "android": {
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.devjpedro.loginflow"
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "c5362701-d721-4bc9-b613-e7ec25810a06"
+      }
     }
   }
 }
